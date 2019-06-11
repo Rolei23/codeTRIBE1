@@ -1,0 +1,25 @@
+
+<html>
+<body>
+<div>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>ID</th> 
+    <th>UserName</th>
+    <th>Email</th>
+    <th>Address</th>
+   
+
+  </tr>
+  <tr *ngFor="let item of list">
+    <td>{{item.name}}</td>
+     <td>{{item.id}}</td>
+    <td>{{item.username}}</td>
+    <td>{{item.email}}</td>
+    <td>{{item.address}}</td>
+
+    
+  </tr>
+</table>
+</div>

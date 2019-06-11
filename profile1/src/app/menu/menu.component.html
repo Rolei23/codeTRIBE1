@@ -1,0 +1,6 @@
+<div class="topnav">
+  <a (click)= "onNavigation(item)" *ngFor= "let item of list" class="active" >{{item.name}}</a>
+               
+</div>
+
+<router-outlet></router-outlet>
